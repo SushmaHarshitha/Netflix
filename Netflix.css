@@ -33,18 +33,23 @@ div .bt1{
     left: 1125px;
     bottom: 685px;   
 }
-div button+button{
-    color: white;
-    background-color: red;
+div .bt2{
     border: 2px solid red;
+    background-color: red;
     border-radius: 5px;
     height: 30px;
     width: 70px;
-    font-size: 15px;
+    color: white;
+    font-size: 17px;
     position: absolute;
     left: 1225px;
-    bottom: 685px;
+    bottom: 685px; 
+    padding-left: 8px;
+    padding-top: 2px; 
+    text-decoration: none; 
+    font-weight: bold;
 }
+
 h1{
    color: white; 
    padding-top: 200px;
@@ -67,7 +72,7 @@ h1{
 input{
     margin-left: 28%;
     /* font-size: x-large; */
-    border: 2px solid white;
+    /* border: 2px solid white; */
     background-color: black;
     border-radius: 8px;
     color: white;
@@ -87,7 +92,7 @@ input{
 }
 #main1{
     height: 590px;
-    border: 2px solid;
+    /* border: 2px solid; */
     color: white;
     background-color: black;
 }
@@ -128,7 +133,7 @@ input{
     /* z-index: -600; */
 }
 #main2{
-    border: 3px solid white;
+    /* border: 3px solid white; */
     height: 590px;
     background-color: black;
 }
@@ -155,7 +160,7 @@ input{
     color: white;
 }
 #main2 #div2 #div3{
-    border: 3px solid white;
+    /* border: 3px solid white; */
     background-color: black;
     border-radius: 10px;
     position: absolute;
@@ -186,7 +191,7 @@ input{
     text-decoration: none;
 }
 #main3{
-    border: 3px solid white;
+    /* border: 3px solid white; */
     background-color: black;
     height: 590px;
 }
@@ -221,7 +226,7 @@ input{
     /* z-index: 111; */
 }
 #main4{
-    border: 3px solid white;
+    /* border: 3px solid white; */
     background-color: black;
     height: 590px;
 }
@@ -260,7 +265,7 @@ input{
     font-size: 48px;
 }
 #main5 #div6{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 565px;
     width: 1180px;
     position: absolute;
@@ -283,6 +288,45 @@ input{
     padding-top: 35px;
     font-size: 25px;
     font-weight: 400;
+}
+#main5 #div6 ul li:hover{
+    background-color: grey;
+}
+#main5 #div6 i{
+    position: absolute;
+    top: 30px;
+    left: 1100px;
+    font-size: 40px;
+}
+#main5 #div6 #i{
+    position: absolute;
+    top: 120px;
+    left: 1100px;
+    font-size: 40px;
+}
+#main5 #div6 #i1{
+    position: absolute;
+    top: 210px;
+    left: 1100px;
+    font-size: 40px;
+}
+#main5 #div6 #i2{
+    position: absolute;
+    top: 305px;
+    left: 1100px;
+    font-size: 40px;
+}
+#main5 #div6 #i3{
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+    font-size: 40px;
+}
+#main5 #div6 #i4{
+    position: absolute;
+    top: 500px;
+    left: 1100px;
+    font-size: 40px;
 }
 #main5 #demo6{
     font-size: 23px;
@@ -311,7 +355,7 @@ input{
     cursor: pointer;
 }
 footer{
-    border: 3px solid white;
+    /* border: 3px solid white; */
     background-color: black;
     height: 406px;
 }

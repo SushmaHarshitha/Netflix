@@ -1,0 +1,141 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+article span svg{
+    height:3em;
+    fill: red;
+    /* padding-top: 15px; */
+    /* border: 3px solid; */
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+article{
+    
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/ea44b42b-ba19-4f35-ad27-45090e34a897/IN-en-20230918-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 1128px;
+    opacity: 0.9;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div{
+    border: 2px solid;
+    height: 660px;
+    width: 460px;
+    margin-left: 530px;
+    margin-top: 20px;
+    background-color: black;
+}
+h1{
+    color: white;
+    padding-top: 65px;
+    padding-left: 70px;
+    font-size: 33px;
+}
+input{
+    border: 2px solid;
+    height: 45px;
+    width: 320px;
+    border-radius: 7px;
+    color: black;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+button{
+    border: 2px solid red;
+    height: 45px;
+    width: 320px;
+    border-radius: 7px;
+    margin-top: 40px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    margin-left: 65px;
+}
+#inp1{
+    position: absolute;
+    top: 415px;
+    left: 537px;
+    height: 20px;
+    width: 20px;
+    background-color: grey;
+}
+p{
+    color: grey;
+    padding-left: 95px;
+    padding-top: 25px;
+}
+#p{
+    color: grey;
+    position: absolute;
+    top: 410px;
+    left: 745px;
+    /* padding-top: 5px; */
+}
+#p1{
+    color: grey;
+    position: absolute;
+    top: 475px;
+    left: 510px;
+}
+#p2{
+    color: grey;
+    position: absolute;
+    top: 475px;
+    left: 617px;
+    color: white;
+    font-size: 17px;
+}
+#p3{
+    color: grey;
+    position: absolute;
+    top: 510px;
+    left: 510px; 
+}
+footer{
+    height: 265px;
+    border: 2px solid;
+    background-color: black;
+}
+#p4{
+    color: grey;
+    position: absolute;
+    top: 872px;
+    left: 165px; 
+}
+#ul{
+    display: inline-flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    height: 30px;
+    width: 900px;
+    color: grey;
+    list-style: none;
+    margin-top: 80px;
+    margin-left: 253px;
+}
+#ul1{
+    display: inline-flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    height: 30px;
+    width: 395px;
+    color: grey;
+    list-style: none;
+    position: absolute;
+    left: 254px;
+    top: 985px;
+}
+#btn{
+    border: 2px solid;
+    background-color: black;
+    color: grey;
+    height: 45px;
+    width: 120px;
+    position: absolute;
+    top: 990px;
+    left: 195px;
+}
